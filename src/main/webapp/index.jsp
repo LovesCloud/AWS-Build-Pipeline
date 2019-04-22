@@ -94,7 +94,7 @@
 
     <main role="main">
 
-      <section class="jumbotron text-center">
+      <section class="jumbotron text-center" style="background-color:white!important;">
         <div class="container banner-nissan" >
           
           
@@ -137,7 +137,7 @@
                 </div>
               </div>
             </div>
-           <div class="col-md-4">
+           <div class="col-md-6">
               <div class="card mb-4 box-shadow"> 
                <img class="card-img-top" src="java.png" alt="Card image cap" width="243px;" style="text-align:center!important;"> 
                 <div class="card-body"> 
