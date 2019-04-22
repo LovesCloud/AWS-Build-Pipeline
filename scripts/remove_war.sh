@@ -1,2 +1,2 @@
 #!/bin/bash
-rm /opt/tomcat/webapps/*.war
+rm /opt/tomcat/latest/webapps/*.war
