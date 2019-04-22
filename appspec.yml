@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: /target/demopipeline.war
+    destination: /opt/tomcat/webapps/
+hooks:
+  BeforeInstall:
+    - location: /scripts/remove_war.sh
+      timeout: 180
+      runas: root
+  ApplicationStart:
+    - location: /scripts/start_tomcat.sh
+      timeout: 180
+      runas: root
