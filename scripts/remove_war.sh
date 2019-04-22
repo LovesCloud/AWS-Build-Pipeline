@@ -1,2 +1,4 @@
 #!/bin/bash
-rm /opt/tomcat/latest/webapps/*.war
+if [ -f /opt/tomcat/latest/webapps/*.war ] ; then
+rm /opt/tomcat/latest/webapps/*.war -v
+fi
